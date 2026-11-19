@@ -3,9 +3,13 @@ package com.smartcampus.util;
 import com.smartcampus.model.Student;
 import java.util.Comparator;
 
+/**
+ * Custom Comparator to sort Student objects alphabetically by Full Name.
+ * Shared utility used for Student sorting.
+ */
 public class StudentNameComparator implements Comparator<Student> {
     @Override
     public int compare(Student s1, Student s2) {
-        return 0;
+        return s1.getFullName().compareToIgnoreCase(s2.getFullName());
     }
 }
