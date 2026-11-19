@@ -1,0 +1,11 @@
+*.class
+out/
+bin/
+target/
+*.jar
+*.war
+*.zip
+.idea/
+*.iml
+.vscode/
+.DS_Store

@@ -1,0 +1,1 @@
+-- Smart Campus Management System Database Schema
